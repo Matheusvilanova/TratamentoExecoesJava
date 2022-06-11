@@ -4,10 +4,6 @@ import javax.swing.JOptionPane;
 
 public class App {
 
-	private int a;
-	private int b;
-	private int c;
-	
 	public static void main(String[] args) {
 		
 		App app = new App();
@@ -22,10 +18,6 @@ public class App {
 	}
 	
 	public int delta(int a, int b, int c) {
-		
-		this.a= a;
-		this.b= b;
-		this.c= c;
 		
 		int delta =b^2*4*a*c;
 		
